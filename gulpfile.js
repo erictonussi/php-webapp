@@ -72,4 +72,5 @@ gulp.task('watch', function() {
     gulp.watch('assets/images/**/*', ['images']);
     gulp.watch('assets/fonts/**/*', ['copyfonts']);
     gulp.watch(['src/**']).on('change', livereload.changed);
+    gulp.watch(['./*.php']).on('change', livereload.changed);
 });
