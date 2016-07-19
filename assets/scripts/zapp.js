@@ -28,22 +28,22 @@ $(function(){
         $('.menu').slideToggle();
     });
 	
-	$(".fancybox").fancybox({
-		padding     : 0,
-		maxWidth	: 800,
-		maxHeight	: 600,
-		fitToView	: false,
-		width		: '70%',
-		height		: '70%',
-		autoSize	: true,
-		helpers : {
-			overlay : {
-				css : {
-					'background' : 'rgba(255, 255, 255, 0.8)'
-				}
-			}
-		}
-	});
+	// $(".fancybox").fancybox({
+	// 	padding     : 0,
+	// 	maxWidth	: 800,
+	// 	maxHeight	: 600,
+	// 	fitToView	: false,
+	// 	width		: '70%',
+	// 	height		: '70%',
+	// 	autoSize	: true,
+	// 	helpers : {
+	// 		overlay : {
+	// 			css : {
+	// 				'background' : 'rgba(255, 255, 255, 0.8)'
+	// 			}
+	// 		}
+	// 	}
+	// });
 });
 
 isMobile = {
