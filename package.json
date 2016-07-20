@@ -1,4 +1,14 @@
 {
+  "name": "php-webapp",
+  "version": "0.0.1",
+  "description": "Projeot front-end com php",
+  "license": "MIT",
+  "repository": "erictonussi/php-webapp",
+  "author": {
+    "name": "Eric Tonussi",
+    "email": "erictonussi@gmail.com",
+    "url": "http://tonussi.com"
+  },
   "private": true,
   "engines": {
     "node": ">=4"
