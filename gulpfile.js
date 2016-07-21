@@ -99,7 +99,7 @@ gulp.task('extras', () => {
 
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
 
-gulp.task('serve', [/*'styles', 'scripts', 'fonts'*/], () => {
+gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
 
   phpconnect.server({base: './app'}, function() {
       // connect is required to serve static assets from multiple roots
