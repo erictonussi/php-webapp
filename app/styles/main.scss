@@ -8,6 +8,7 @@
 
 //pages
 @import "pages/styleguide";
+@import "pages/login";
 
 //mixins
 @import "mixins/heading";
@@ -28,4 +29,8 @@ footer {
   background-color: #4f451b;
   color: #87750f;
   min-height: 66px;
+  padding: 10px;
+  p {
+    margin: 0;
+  }
 }

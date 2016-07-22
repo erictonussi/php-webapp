@@ -1,0 +1,27 @@
+.login {
+    .main-content {
+        display: table;
+        width: 100%;
+    }
+    .login-content {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .login-form {
+        max-width: 230px;
+        margin: auto;
+    }
+    .logo {
+        display: block;
+        margin-bottom: 50px;
+    }
+    h4 {
+        border-bottom: 1px solid #beab46;
+        display: inline-block;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .btn-entrar {
+        margin-top: 40px;
+    }
+}
