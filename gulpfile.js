@@ -105,7 +105,7 @@ gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
       // connect is required to serve static assets from multiple roots
       connect.server({
           port: 8001,
-          root: ['.tmp','bower_components'],
+          root: ['.tmp','bower_components','app'],
           middleware: function() {
               return [
                   // urls without extensions or with php extension should
