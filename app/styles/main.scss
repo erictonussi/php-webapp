@@ -1,8 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 
+@import "variables";
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+//pages
+@import "pages/styleguide";
+
+//mixins
 @import "mixins/heading";
 
+html,
+body {
+  height: 100%;
+}
+
+.main-content {
+  border-top: 5px solid #beab46;
+  min-height: 100%;
+  margin-bottom: -66px;
+  padding-bottom: 66px;
+}
+
+footer {
+  background-color: #4f451b;
+  color: #87750f;
+  min-height: 66px;
+}
