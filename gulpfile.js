@@ -135,7 +135,7 @@ gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
 
   gulp.watch([
     'app/*.html',
-    'app/*.php',
+    'app/**/*.php',
     'app/images/**/*',
     '.tmp/fonts/**/*'
   ]).on('change', reload);
