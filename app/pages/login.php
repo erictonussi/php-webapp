@@ -1,15 +1,13 @@
 <div class="login-content">
-    <form class="login-form">
+    <form class="login-form" method="post" action="/?page=app">
         <img src="images/logo.png" class="logo">
         <h4 class="-upper">login</h4>
           <div class="form-group">
-<!--            <label for="exampleInputEmail1">Email address</label>-->
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <input type="email" class="form-control" name="email" placeholder="Email">
           </div>
           <div class="form-group">
-<!--            <label for="exampleInputPassword1">Password</label>-->
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" name="password" placeholder="Password">
           </div>
-        <button type="button" class="btn btn-primary btn-block btn-entrar">ENTRAR</button>
+        <button type="submit" class="btn btn-primary btn-block btn-entrar">ENTRAR</button>
     </form>
 </div>
