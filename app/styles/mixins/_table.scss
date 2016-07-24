@@ -1,0 +1,6 @@
+.table :first-child > tr:first-child {
+  td,
+  th {
+    border-top: 0;
+  }
+}
