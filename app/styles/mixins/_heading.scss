@@ -9,13 +9,15 @@ h2 {
 }
 
 // Variants
-.-dashed {
-  display: inline-block;
-  border-bottom: 1px solid #beab46;
-  padding-bottom: 20px;
-}
 
 .-upper {
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.-dashed {
+  width: 70px;
+  border-bottom: 1px solid #beab46;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }

@@ -1,7 +1,7 @@
 <div class="login-content">
     <form class="login-form" method="post" action="/?page=app">
         <img src="images/logo.png" class="logo">
-        <h4 class="-upper">login</h4>
+        <h4 class="-upper -dashed">login</h4>
           <div class="form-group">
             <input type="email" class="form-control" name="email" placeholder="Email">
           </div>

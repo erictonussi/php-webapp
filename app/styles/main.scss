@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
 
 @import "variables";
 
@@ -13,6 +14,7 @@
 
 //mixins
 @import "mixins/heading";
+@import "mixins/navbar";
 
 html,
 body {

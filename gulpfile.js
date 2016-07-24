@@ -118,7 +118,8 @@ gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
           }
       });
       browserSync.init({
-          proxy: 'localhost:8001'
+          proxy: 'localhost:8001',
+          notify: false
       });
   });
 

@@ -13,10 +13,10 @@ $module = @$_GET['module'] ?: 'home';
         <span class="icon-bar"></span>
       </button>
 <!--          <a class="navbar-brand" href="#">Project name</a>-->
-      <img src="/images/logo.png" class="navbar-brand" >
+      <img src="/images/navbar-logo.png" class="navbar-brand" >
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav menu">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -33,10 +33,9 @@ $module = @$_GET['module'] ?: 'home';
           </ul>
         </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="../navbar/">Default</a></li>
-        <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-        <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+      <ul class="nav navbar-nav navbar-right toolbar">
+        <li><a href="#"><img src="/images/icons/settings.png"> Configurações</a></li>
+        <li><a href="#"><img src="/images/icons/user.png"> Sair</a></li>
       </ul>
     </div><!--/.nav-collapse -->
 <!--  </div>-->

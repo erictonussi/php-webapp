@@ -1,3 +1,18 @@
+.nav.toolbar {
+  > li {
+    float: none;
+  }
+  > li > a {
+    img {
+      vertical-align: baseline;
+      margin-right: 5px;
+    }
+    @media (min-width: $grid-float-breakpoint) {
+      padding: 3px 10px;
+    }
+  }
+}
+
 .app-content {
-  border: 1px solid red;
+//  border: 1px solid red;
 }
