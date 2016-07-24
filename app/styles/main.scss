@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
 
 @import "variables";
@@ -10,6 +10,7 @@
 //pages
 @import "pages/login";
 @import "pages/app";
+@import "pages/app/home";
 
 //mixins
 @import "mixins/heading";
@@ -32,7 +33,7 @@ footer {
   background-color: #4f451b;
   color: #87750f;
   min-height: 66px;
-  padding: 10px;
+  padding: 12px 0;
   p {
     margin: 0;
   }

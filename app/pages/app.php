@@ -41,6 +41,6 @@ $module = @$_GET['module'] ?: 'home';
 <!--  </div>-->
 </nav>
 
-<div class="app-content container">
+<div class="app-content container <?=$module?>">
   <?php include("./pages/app/$module.php"); ?>
 </div>
