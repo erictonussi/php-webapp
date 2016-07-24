@@ -1,4 +1,4 @@
-<?php 
+<?php
 $module = @$_GET['module'] ?: 'home';
 ?>
 
@@ -17,7 +17,8 @@ $module = @$_GET['module'] ?: 'home';
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav menu">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="<?=$module=='home'?'active':'' ?>"><a href="?page=app">Home</a></li>
+        <li class="<?=$module=='empresas'?'active':'' ?>"><a href="?page=app&module=empresas">Empresas</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li class="dropdown">
