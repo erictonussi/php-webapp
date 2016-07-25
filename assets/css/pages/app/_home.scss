@@ -1,0 +1,26 @@
+.home {
+  .boxes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .box {
+    color: #ffffff;
+    background-color: #beab46;
+    padding: 30px 0;
+    .title {
+      font: 700 21px Lato;
+      margin-bottom: 30px;
+    }
+    .count {
+      font: 300 42px Lato;
+    }
+    .description {
+      font: 700 16px Lato;
+      margin-bottom: 40px;
+    }
+    a {
+      color: #ffffff;
+      font: 400 12px Lato;
+    }
+  }
+}
