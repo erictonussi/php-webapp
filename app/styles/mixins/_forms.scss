@@ -1,0 +1,28 @@
+.form-group label {
+  color: #86762e;
+  font-size: 13px;
+}
+
+.form-control {
+  &:focus {
+    box-shadow: none;
+  }
+  
+}
+
+.document {
+  background-color: #f5f5f5;
+  margin-right: 50px;
+  padding: 3px;
+  img {
+    height: 32px;
+    margin-right: 10px;
+  }
+  .title {
+    margin: 0;
+  }
+  .content {
+    font-size: 12px;
+    color: #767676;
+  }
+}

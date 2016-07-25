@@ -13,6 +13,7 @@ h2 {
 .-upper {
   text-transform: uppercase;
   letter-spacing: 3px;
+  white-space: nowrap;
 }
 
 .-dashed {
@@ -20,4 +21,41 @@ h2 {
   border-bottom: 1px solid #beab46;
   padding-bottom: 20px;
   margin-bottom: 30px;
+}
+.-dashed-right {
+  margin-bottom: 20px;
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    border-bottom: 1px solid #beab46;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+}
+
+.-info-title {
+  background-color: #4f451b;
+  padding: 0px 10px;
+  line-height: 30px;
+  margin: 15px 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.-spacer {
+  &:after,
+  &:before {
+    content: "";
+    width: 5px;
+    display: inline-block;
+  }
+  &:first-child:before {
+    width: 0px;
+  }
+  &:last-child:after {
+    width: 0px;
+  }
 }
