@@ -1,7 +1,6 @@
-
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
-.login.main-content {
+.login .main-content {
   display: table;
   width: 100%;
 }
@@ -19,6 +18,196 @@
 }
 .login .btn-entrar {
   margin-top: 40px;
+}
+.nav.toolbar > li {
+  float: none;
+}
+.nav.toolbar > li > a img {
+  vertical-align: baseline;
+  margin-right: 5px;
+}
+@media (min-width: 768px) {
+  .nav.toolbar > li > a {
+    padding: 3px 10px;
+  }
+}
+section {
+  margin: 20px 0;
+}
+section h4 {
+  margin: 25px 0;
+}
+.-borded {
+  border: 1px solid #86762e;
+  padding: 0 15px;
+}
+.home .boxes {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.home .box {
+  color: #ffffff;
+  background-color: #beab46;
+  padding: 30px 0;
+}
+.home .box .title {
+  font: 700 21px Lato;
+  margin-bottom: 30px;
+}
+.home .box .count {
+  font: 300 42px Lato;
+}
+.home .box .description {
+  font: 700 16px Lato;
+  margin-bottom: 40px;
+}
+.home .box a {
+  color: #ffffff;
+  font: 400 12px Lato;
+}
+body {
+  font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.-upper {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
+.-dashed {
+  width: 70px;
+  border-bottom: 1px solid #beab46;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.-dashed-right {
+  margin-bottom: 20px;
+}
+.-dashed-right:after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  border-bottom: 1px solid #beab46;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.-info-title {
+  background-color: #4f451b;
+  padding: 0px 10px;
+  line-height: 30px;
+  margin: 15px 0;
+}
+strong {
+  font-weight: 700;
+}
+.-spacer:after,
+.-spacer:before {
+  content: "";
+  width: 5px;
+  display: inline-block;
+}
+.-spacer:first-child:before {
+  width: 0px;
+}
+.-spacer:last-child:after {
+  width: 0px;
+}
+a {
+  color: #beab46;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #887a30;
+}
+.navbar {
+  font-family: 'Cormorant Garamond';
+  border-bottom: 1px solid #eeeeee;
+}
+.navbar-toggle .icon-bar {
+  background-color: #beac45;
+}
+.navbar-brand {
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .navbar {
+    padding: 15px 15px;
+    margin-bottom: 40px;
+  }
+  .navbar a {
+    color: #4f451a;
+  }
+  .navbar-nav.menu > li > a {
+    border-left: 1px solid #4f451b;
+    padding: 5px 70px 5px 10px;
+    margin: 12.5px 0;
+  }
+  .navbar-nav.menu > li.active > a {
+    color: #beac45;
+    border-left-color: #beac45;
+  }
+  .navbar-brand {
+    padding: 0 60px 0 0px;
+  }
+}
+.table :first-child > tr:first-child td,
+.table :first-child > tr:first-child th {
+  border-top: 0;
+}
+.table > thead:first-child > tr:first-child {
+  color: #ffffff;
+  background-color: #4f451b;
+}
+.table > thead:first-child > tr:first-child td,
+.table > thead:first-child > tr:first-child th {
+  border-bottom: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.form-group label {
+  color: #86762e;
+  font-size: 13px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.document {
+  background-color: #f5f5f5;
+  margin-right: 50px;
+  padding: 3px;
+}
+.document img {
+  height: 32px;
+  margin-right: 10px;
+}
+.document .title {
+  margin: 0;
+}
+.document .content {
+  font-size: 12px;
+  color: #767676;
+}
+.btn {
+  border-radius: 0;
+}
+.btn-primary {
+  background-color: #beab46;
+  border-color: #beab46;
 }
 html,
 body {

@@ -9,12 +9,14 @@
 	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     
 	<link rel="stylesheet" href="src/vendors/bootstrap/bootstrap.css" media="screen" charset="utf-8">
-	<link href="src/vendors/filer/css/jquery.filer.css" type="text/css" rel="stylesheet" />
-    <link href="src/vendors/filer/css/themes/jquery.filer-dragdropbox-theme.css" type="text/css" rel="stylesheet" />
-	
-	<link rel="stylesheet" href="src/styles/style.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="src/vendors/filer/css/jquery.filer.css" type="text/css" />
+    <link rel="stylesheet" href="src/vendors/filer/css/themes/jquery.filer-dragdropbox-theme.css" type="text/css" />
+    <link rel="stylesheet" href="src/vendors/DataTables/datatables.min.css" type="text/css" />
+    
+    <link rel="stylesheet" href="src/styles/style.css" media="screen" charset="utf-8">
 
     <link href="src/images/favicon.ico" rel="shortcut icon" />    
     <title></title>
 </head>
-<body>
+<body class="<?=$page?>">
+    <div class="main-content">

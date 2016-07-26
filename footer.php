@@ -1,3 +1,4 @@
+    </div>
     <footer>
       <div class="container text-center">
         <p>Alameda Oscar Niemeyer, 1033 A - Conj 210 e 2011 – Vila da Serra – Nova Lima – Cep 34000-000</p>

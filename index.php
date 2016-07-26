@@ -1,3 +1,6 @@
+<?php 
+$page = @$_GET['page'] ?: 'home';
+?>
 <?php include 'header.php' ?>
 
 <!-- Static navbar -->
@@ -11,14 +14,12 @@
         <span class="icon-bar"></span>
       </button>
 <!--          <a class="navbar-brand" href="#">Project name</a>-->
-      <img src="/images/navbar-logo.png" class="navbar-brand" >
+      <img src="assets//images/navbar-logo.png" class="navbar-brand" >
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav menu">
-        <li class="<?=$module=='home'?'active':'' ?>"><a href="?page=app">Home</a></li>
-        <li class="<?=$module=='empresas'?'active':'' ?>"><a href="?page=app&module=empresas">Empresas</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="<?=$page=='home'?'active':'' ?>"><a href="./">Home</a></li>
+        <li class="<?=$page=='empresas'?'active':'' ?>"><a href="?page=empresas">Empresas</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -33,17 +34,15 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right toolbar">
-        <li><a href="#"><img src="/images/icons/settings.png"> Configurações</a></li>
-        <li><a href="#"><img src="/images/icons/user.png"> Sair</a></li>
+        <li><a href="#"><img src="./assets/images/icons/settings.png"> Configurações</a></li>
+        <li><a href="./login.php"><img src="./assets/images/icons/user.png"> Sair</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
 
-<section class="home">
-	<div class="container">
-		<div class="row">
-		</div>
-	</div>
-</section>
+<div class="app-content container <?=$page?>">
+  <?php include("./src/pages/$page.php"); ?>
+</div>
+
 <?php include 'footer.php' ?>

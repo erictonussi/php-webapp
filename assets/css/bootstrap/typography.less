@@ -1,14 +1,10 @@
-// Reservado para a logo
-h1 {
-  
+body {
+      font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-h2 {
-//font: 700 21px Lato;
-//  margin: 0;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
 }
-
-// Variants
 
 .-upper {
   text-transform: uppercase;
@@ -57,5 +53,15 @@ strong {
   }
   &:last-child:after {
     width: 0px;
+  }
+}
+
+a {
+  color: #beab46;
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: #887a30;
   }
 }
