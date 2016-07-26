@@ -176,8 +176,6 @@ a:hover {
 .table > thead:first-child > tr:first-child td,
 .table > thead:first-child > tr:first-child th {
   border-bottom: 0;
-  padding-top: 4px;
-  padding-bottom: 4px;
 }
 .form-group label {
   color: #86762e;

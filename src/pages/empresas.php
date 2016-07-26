@@ -2,14 +2,14 @@
 <h4 class="-upper -dashed">Empresas</h4>
 
 <div class="table-responsive">
-  <table class="table table-hover">
+  <table id="example" class="table table-hover">
     <thead>
-      <th>Nome <img src="/images/icons/filter.png"</th>
-        <th><a href="#">Segmento</a></th>
-        <th><a href="#">Off-Limits Início</a></th>
-        <th><a href="#">Off-Limits Término</a></th>
-        <th><a href="#">Promessa</a></th>
-        <th><a href="#">Entrega</a></th>
+      <th>Nome</th>
+      <th>Segmento</th>
+      <th>Off-Limits Início</th>
+      <th>Off-Limits Término</th>
+      <th>Promessa</th>
+      <th>Entrega</th>
     </thead>
     <tbody>
       <tr>

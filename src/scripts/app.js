@@ -44,6 +44,9 @@ $(function(){
 	// 		}
 	// 	}
 	// });
+
+	$('#example').DataTable();
+
 });
 
 isMobile = {
