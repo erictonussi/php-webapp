@@ -1,0 +1,36 @@
+.navbar {
+  font-family: $font-family-serif;
+  border-bottom: 1px solid #eeeeee;
+}
+.navbar-toggle .icon-bar {
+  background-color: #beac45;
+}
+.navbar-brand {
+  padding: 10px;
+}
+
+@media (min-width: $grid-float-breakpoint) {
+  .navbar {
+    padding: 15px 15px;
+    margin-bottom: 40px;
+    a {
+      color: #4f451a;
+    }
+  }
+  .navbar-nav.menu { 
+    > li {
+      > a {
+        border-left: 1px solid #4f451b;
+        padding: 5px 70px 5px 10px;
+        margin: 12.5px 0;
+      }
+      &.active > a {
+        color: #beac45;
+        border-left-color: #beac45;
+      }
+    }
+  }
+  .navbar-brand {
+    padding: 0 60px 0 0px;
+  }
+}

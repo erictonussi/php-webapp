@@ -18,9 +18,3 @@
     <title></title>
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <div class="row">
-                
-        </div>
-    </nav>

@@ -1,0 +1,21 @@
+.table :first-child > tr:first-child {
+  td,
+  th {
+    border-top: 0;
+  }
+}
+
+.table {
+//  margin-bottom: 0;
+}
+
+.table > thead:first-child > tr:first-child {
+  color: #ffffff;
+  background-color: #4f451b;
+  td,
+  th {
+    border-bottom: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
